@@ -129,7 +129,8 @@
         text-decoration: none;
         width: 180px;
         align-items: center;
-        margin-top: 40px;
+        margin-top: 20px;
+        margin-left: 20%;
 }
 .btn-box a{
     font-size: 20px;
@@ -162,6 +163,7 @@
         background-image: url(./images/logo.png);
         background-repeat: no-repeat;
         background-size: cover;
+        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
         
         
     
@@ -726,13 +728,16 @@
         .container  .form-container form{
 
             width: 100%;
-            height: 50px;
+            height: 60px;
             margin-top: 4pc;
             margin-left: -90%;
         }
          .container .map-container  iframe{
             display: flex;
-            width: 61%;
+            width: 130%;
+            height: 35pc;
+            margin-left: -7%;
+            
            
         }
          .reach-at {
@@ -884,7 +889,7 @@
         padding: 20px;
         margin: 10px;
         width: 220px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
     }
     .department h2:hover{
         color: lightgreen;
@@ -1025,7 +1030,7 @@
     .action-section{
         display: flex;
         justify-content: center;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 
     }
 
@@ -1175,10 +1180,9 @@
     }
     
     .map-container {
-        flex: 1;
-        height: 500px;
-        width: 504%;
-        margin-left: -202%;
+        display: flex;
+        justify-content: center;
+        
        
 
         
@@ -1186,8 +1190,8 @@
     
     .map-container iframe {
         display: flex;
-        width: 100%;
-        height: 100%;
+        width: 500%;
+        /* height: 100%; */
         
        
     }
