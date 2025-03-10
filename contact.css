@@ -11,6 +11,159 @@ body {
      /* Background color */
     color: white;
 }
+
+#check {
+    display: none;
+}
+#bars {
+display: none;
+}
+#links{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size:  15px;
+}
+#links a{
+   text-decoration: none;
+}
+#links a:hover{
+    color: lawngreen;
+}
+
+#links i:hover{
+    color: lawngreen !important;
+}
+
+
+@media(max-width: 450px){
+
+    #navbar #links  {
+       
+       display: none;
+       
+   }
+  #navbar h1 a{
+   margin-left: -60%;
+  }
+  #navbar  div nav ul{
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+  
+
+    #links{
+       display: none;
+       padding: 5px 25px;
+       margin: 5px 0;
+   }
+   
+   #bars{
+       display: block;
+   }
+
+    #bars i{
+       display: block;
+       position: absolute;
+       z-index: 999;
+       right: 7%;
+       top: 3%;
+       padding: 5px 25px;
+       margin: 5px 0;
+       align-items: center;
+       justify-content: center;
+       border: 1px solid black;
+       background-color: #fff;
+       color: gray;
+       border-top-left-radius: 4px;
+       border-top-right-radius: 4px;
+       border-bottom-right-radius: 4px;
+       border-bottom-left-radius: 4px;
+       
+   }
+   .reach-at {
+            
+    margin-left: -7%;
+}
+
+.social-links{
+    display: flex;
+}
+.newsletter{
+   width: 30%;
+   height: 10px;
+   
+   margin-left: -6%;
+}
+.links{
+    margin-left: -5%;
+}
+.newsletter input{
+    width: 20%;
+    height: 40px;
+    margin-left: 15%;
+}
+.newsletter .ic{
+    width: 100%;
+    height: 40px;
+    margin-left: 15%;
+    
+
+}
+
+
+
+.fa-facebook-f:hover{
+    color: #316FF6 !important;
+    
+    
+   }
+   .fa-twitter:hover{
+    color:  #1da1f2 !important;
+    
+   }
+   .fa-linkedin-in:hover{
+    color:  #0077B5 !important;
+    
+   }
+   .fa-instagram:hover{
+    color: rgb(255, 0, 93) !important;
+    
+   }
+
+
+
+#check:checked~#navbar #links  {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column !important;
+    position:absolute;
+    width: 100%;
+    height: 60vh;
+    top: 2px;
+    left: 0%;
+    background-color: #10ac8a;
+    
+}
+#check:checked~#navbar #links .navbar_nav {
+    display: flex !important;
+    justify-content: center;
+    gap: 30px;
+    text-transform: uppercase;
+    margin-top: 40%;
+    
+}
+#links a:hover{
+    color: lawngreen;
+}
+
+#links i:hover{
+    color: lawngreen !important;
+}
+}
 header {
     background-color: #007a5e;
     color: white;
@@ -41,12 +194,14 @@ nav ul li {
     flex: 1;
     padding: 15px;
     background-color: #fff;
-    margin-right: 20px;
+    margin-right: 10px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .form-container h2 {
+    display: flex;
+    justify-content: center;
     margin-bottom: 20px;
     font-size: 24px;
     text-align: left;
@@ -75,6 +230,23 @@ nav ul li {
 .form-container button:hover {
     background-color: #1E5B55;
 }
+.fa-facebook-f:hover{
+    color: #316FF6 !important;
+    
+    
+   }
+   .fa-twitter:hover{
+    color:  #1da1f2 !important;
+    
+   }
+   .fa-linkedin-in:hover{
+    color:  #0077B5 !important;
+    
+   }
+   .fa-instagram:hover{
+    color: rgb(255, 0, 93) !important;
+    
+   }
 
 .map-container {
     flex: 1;

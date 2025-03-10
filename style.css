@@ -570,7 +570,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size:  25px;
+        font-size:  55px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         border: 0px solid white;
         border-radius: 7px;
@@ -629,7 +629,7 @@
 
 
 
-    @media(max-width: 480px){
+    @media(max-width: 450px){
 
          #navbar #links  {
             
@@ -712,7 +712,7 @@
         }
         .card img:hover{
             transform: scale(1.1);
-            transition: all ease 3s;
+            transition: all ease 7s;
         }
         .container  .form-container{
             display: flex;
@@ -1087,7 +1087,7 @@
     }
     .card img:hover{
         transform: scale(1.1);
-        transition: all ease 3s;
+        transition: all ease 1s;
     }
 
      
@@ -1168,8 +1168,8 @@
         font-size: 16px;
     }
     
-    .form-container button:hover {
-        background-color: #1E5B55;
+    .form-container  button:hover {
+        color: #050505;
     }
     
     
