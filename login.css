@@ -1,0 +1,203 @@
+*{
+ margin: 0%;
+ padding: 0%;
+ scroll-behavior: smooth;
+ box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(red, yellow, green);
+}
+
+.login {
+      
+    background: linear-gradient(to top left, #ff00ff 0%, #ffff00 100%);
+    border-radius: 15px;
+    box-shadow: 12px 5px 20px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    transition: transform 0.2s;
+    width: 490px;
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 35%;
+    height:400px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.login h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.login p a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -30px;
+}
+
+label {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-align: left;
+  color: #555;
+  font-weight: bold;
+}
+
+input {
+  display: block;
+  width: 100%;
+
+  margin-bottom: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  background-color:#0e8b53;
+  width: 100%;
+  font-size: 20px;
+
+  
+  
+}
+button:hover {
+display: flex;
+justify-content: center;
+  background: gray;
+  color: black;
+
+  
+}
+
+
+.wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  align-items: center;
+  margin-left: 30%;
+  
+  
+}
+
+.forgot {
+    background: linear-gradient(to top left, #ff00ff 0%, #ffff00 100%);
+    border-radius: 15px;
+    box-shadow: 12px 5px 20px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    transition: transform 0.2s;
+    width: 400px;
+display: block;
+    text-align: center;
+    /* margin-top: 570px; */
+    margin-left: 35%;
+    height:400px;
+    align-items: center;
+    justify-content: center;
+  
+}
+.forgot h2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.forgot button{
+    display: flex;
+    justify-content: center;
+    width: 190px;
+}
+.forgot .re-login p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:  25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 0px solid white;
+    border-radius: 7px;
+    width: 80px;
+    height: 40px;
+    margin-left: 80%;
+    color: white;
+    background-color: gray;
+    
+
+}
+.forgot .re-login p:hover{
+    background-color: white;
+    color: black;
+}
+.NewUser {
+    background: linear-gradient(to top left, #ff00ff 0%, #ffff00 100%);
+    border-radius: 15px;
+    box-shadow: 12px 5px 20px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    transition: transform 0.2s;
+    width: 400px;
+
+    text-align: center;
+    margin-top: 50%;
+    margin-left: 35%;
+    height:550px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.NewUser h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.NewUser .re-login p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:  30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 0px solid white;
+    border-radius: 7px;
+    margin-top: -50px;
+    width: 80px;
+    height: 40px;
+    margin-left: 80%;
+    color: white;
+    background-color: gray;
+    
+
+}
+.NewUser .re-login p:hover{
+    background-color: white;
+    color: black;
+}
+@media(max-width: 768px){
+
+    .login {
+        
+       
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin-left: 0%;
+        height:390px;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+}

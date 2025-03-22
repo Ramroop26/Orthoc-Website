@@ -413,197 +413,13 @@
     }
     
 
-    .login {
-        background: linear-gradient(to top left, #ff00ff 0%, #ffff00 100%);
-        border-radius: 15px;
-        box-shadow: 12px 5px 20px rgba(0, 0, 0, 0.2);
-        padding: 10px 20px;
-        transition: transform 0.2s;
-        width: 490px;
-    
-        text-align: center;
-        margin-top: 570px;
-        margin-left: 35%;
-        height:400px;
-        align-items: center;
-        justify-content: center;
-        
-    }
-    .login h1{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-    .login p a{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: -30px;
-    }
-    
-    label {
-      display: block;
-      width: 100%;
-      margin-top: 10px;
-      margin-bottom: 5px;
-      text-align: left;
-      color: #555;
-      font-weight: bold;
-    }
-    
-    input {
-      display: block;
-      width: 100%;
-    
-      margin-bottom: 15px;
-      padding: 10px;
-      box-sizing: border-box;
-      border: 1px solid #ddd;
-      border-radius: 5px;
-    }
-    
-    button {
-      padding: 15px;
-      border-radius: 10px;
-      margin-top: 15px;
-      margin-bottom: 15px;
-      border: none;
-      color: white;
-      cursor: pointer;
-      background-color:#0e8b53;
-      width: 100%;
-      font-size: 20px;
-    
-      
-      
-    }
-    button:hover {
-    display: flex;
-    justify-content: center;
-      background: gray;
-      color: black;
-    
-      
-    }
-    
-    
-    .wrap{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 150%;
-      margin-left: -30%;
-      
-      
-    }
-    
-    .forgot {
-        background: linear-gradient(to top left, #ff00ff 0%, #ffff00 100%);
-        border-radius: 15px;
-        box-shadow: 12px 5px 20px rgba(0, 0, 0, 0.2);
-        padding: 10px 20px;
-        transition: transform 0.2s;
-        width: 400px;
-    
-        text-align: center;
-        margin-top: 570px;
-        margin-left: 35%;
-        height:400px;
-        align-items: center;
-        justify-content: center;
-      
-    }
-    .forgot h2{
-        display: flex;
-        justify-content: center;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-    .forgot button{
-        display: flex;
-        justify-content: center;
-        width: 190px;
-    }
-    .forgot .re-login p{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size:  25px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        border: 0px solid white;
-        border-radius: 7px;
-        width: 80px;
-        height: 40px;
-        margin-left: 80%;
-        color: white;
-        background-color: gray;
-        
-
-    }
-    .forgot .re-login p:hover{
-        background-color: white;
-        color: black;
-    }
-    .NewUser {
-        background: linear-gradient(to top left, #ff00ff 0%, #ffff00 100%);
-        border-radius: 15px;
-        box-shadow: 12px 5px 20px rgba(0, 0, 0, 0.2);
-        padding: 10px 20px;
-        transition: transform 0.2s;
-        width: 400px;
-    
-        text-align: center;
-        margin-top: 50%;
-        margin-left: 35%;
-        height:550px;
-        align-items: center;
-        justify-content: center;
-        
-    }
-    .NewUser h1{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-    .NewUser .re-login p{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size:  55px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        border: 0px solid white;
-        border-radius: 7px;
-        margin-top: -50px;
-        width: 80px;
-        height: 40px;
-        margin-left: 80%;
-        color: white;
-        background-color: gray;
-        
-
-    }
-    .NewUser .re-login p:hover{
-        background-color: white;
-        color: black;
-    }
     #check {
         display: none;
     }
   #bars {
     display: none;
 } 
-/* .container .img-box {
-    display: flex;
-    box-shadow: 1px 3px 5px  white;
-    width: 26%;
-    height: 100px;
-    border: 1px solid black;
-    border-top-left-radius: 4px;
-            border-top-right-radius: 4px;
-            border-bottom-right-radius: 4px;
-            border-bottom-left-radius: 4px;
-} */
+
 
 .container .img-box img{
     display: flex;
@@ -629,7 +445,7 @@
 
 
 
-    @media(max-width: 450px){
+    @media(max-width: 768px){
 
          #navbar #links  {
             
@@ -709,6 +525,10 @@
             display: flex;
             width: 110%;
             margin-left: -18px;
+           
+            font-size: 20px;
+        margin-bottom: 10px;
+        justify-content: center;
         }
         .card img:hover{
             transform: scale(1.1);
@@ -755,18 +575,14 @@
             margin-left: -5%;
         }
         .newsletter input{
-            display: flex;
-            width: 60%;
-            height: 33px;
-            /* margin-left: 15%; */
-            font-size:  10px;
+            width: 20%;
+            height: 40px;
+            margin-left: 15%;
         }
         .newsletter .ic{
-            display: flex;
-            width: 70%;
-            height: 30px;
-            margin-left: 18%;
-            font-size:  10px;
+            width: 100%;
+            height: 40px;
+            margin-left: 15%;
             
 
         }
@@ -799,8 +615,8 @@
             flex-direction: column !important;
             position:absolute;
             width: 100%;
-            height: 50vh;
-            top: 2%;
+            height: 70vh;
+            top: -0%;
             left: 0%;
             background-color: #10ac8a;
             
@@ -864,7 +680,7 @@
     }
     
     .container h1 {
-        font-size: 2.5em;
+        font-size: 2rem;
         margin-bottom: 10px;
         justify-content: center;
         
@@ -1142,10 +958,10 @@
     .form-container {
         flex: 1;
         height: 360px;
-        width: 200%;
+        width: 100%;
         padding: 10px;
         background-color: #fff;
-        margin-left: -60%;
+        margin-left: 10%;
         border-radius: 8px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }

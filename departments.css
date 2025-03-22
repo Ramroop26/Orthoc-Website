@@ -35,7 +35,7 @@ display: none;
 }
 
 
-@media(max-width: 450px){
+@media(max-width: 768px){
 
     #navbar #links  {
        
@@ -99,13 +99,13 @@ display: none;
     margin-left: -5%;
 }
 .newsletter input{
-    width: 20%;
-    height: 40px;
-    margin-left: 15%;
+    width: 10%;
+    height: 30px;
+    margin-left: 5%;
 }
 .newsletter .ic{
-    width: 100%;
-    height: 40px;
+    width: 87%;
+    height: 30px;
     margin-left: 15%;
     
 
@@ -133,7 +133,7 @@ display: none;
 
 
 
-#check:checked~#navbar #links  {
+   #check:checked~#navbar #links  {
     display: flex !important;
     justify-content: space-between;
     align-items: center;
@@ -141,8 +141,8 @@ display: none;
     flex-direction: column !important;
     position:absolute;
     width: 100%;
-    height: 60vh;
-    top: 2px;
+    height: 70vh;
+    top: -0%;
     left: 0%;
     background-color: #10ac8a;
     
@@ -391,6 +391,23 @@ a:hover {
     border: none;
     border-radius: 5px;
 }
+.fa-facebook-f:hover{
+    color: #316FF6 !important;
+    
+    
+   }
+   .fa-twitter:hover{
+    color:  #1da1f2 !important;
+    
+   }
+   .fa-linkedin-in:hover{
+    color:  #0077B5 !important;
+    
+   }
+   .fa-instagram:hover{
+    color: rgb(255, 0, 93) !important;
+    
+   }
 
 .newsletter button {
     padding: 15px;

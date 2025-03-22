@@ -30,7 +30,7 @@ display: none;
 }
 
 
-@media(max-width: 450px){
+@media(max-width: 768px){
 
     #navbar #links  {
        
@@ -94,13 +94,13 @@ display: none;
     margin-left: -5%;
 }
 .newsletter input{
-    width: 20%;
+    width: 10%;
     height: 10px;
-    margin-left: 15%;
+    margin-left: 2%;
 }
 .newsletter .ic{
-    width: 100%;
-    height: 40px;
+    width: 87%;
+    height: 30px;
     margin-left: 15%;
     
 
@@ -125,6 +125,9 @@ display: none;
     color: rgb(255, 0, 93) !important;
     
    }
+   .container :hover{
+    color: black;
+}
 
 
 
@@ -135,9 +138,9 @@ display: none;
     flex-wrap: wrap;
     flex-direction: column !important;
     position:absolute;
-    width: 100%;
-    height: 60vh;
-    top: 2px;
+    width: 87%;
+    height: 70vh;
+    top: -0%;
     left: 0%;
     background-color: #10ac8a;
     
@@ -182,6 +185,9 @@ nav ul li {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+}
+.container :hover{
+    color: black;
 }
 .container h1{
     display: flex;
